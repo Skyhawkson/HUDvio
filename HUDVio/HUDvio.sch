@@ -1302,6 +1302,8 @@ DIN A4, landscape with location and doc. field</description>
 <classes>
 <class number="0" name="default" width="0" drill="0">
 </class>
+<class number="1" name="75R" width="0" drill="0">
+</class>
 </classes>
 <parts>
 <part name="PRIMARY_MICROPROCESSOR" library="Skyhawkson-Miscellaneous" library_urn="urn:adsk.eagle:library:23798804" deviceset="A4-FRAME" device=""/>
@@ -1584,14 +1586,14 @@ substrate as a diffuser</text>
 <junction x="53.34" y="22.86"/>
 </segment>
 </net>
-<net name="VIDEO-IN" class="0">
+<net name="VIDEO-IN" class="1">
 <segment>
 <pinref part="U$1" gate="G$1" pin="3"/>
 <wire x1="20.32" y1="147.32" x2="30.48" y2="147.32" width="0.1524" layer="91"/>
 <label x="22.86" y="147.32" size="1.27" layer="95"/>
 </segment>
 </net>
-<net name="VIDEO-OUT" class="0">
+<net name="VIDEO-OUT" class="1">
 <segment>
 <pinref part="U$3" gate="G$1" pin="3"/>
 <wire x1="243.84" y1="149.86" x2="233.68" y2="149.86" width="0.1524" layer="91"/>

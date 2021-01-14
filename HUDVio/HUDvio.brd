@@ -271,6 +271,162 @@
 </package3d>
 </packages3d>
 </library>
+<library name="Skyhawkson-ICs" urn="urn:adsk.eagle:library:24316599">
+<packages>
+<package name="MAXIM_MAX7456EUI+T" urn="urn:adsk.eagle:footprint:24316613/4" library_version="11">
+<description>28-SOP, 0.65 mm pitch, 6.38 mm span, 9.70 X 4.40 X 1.10 mm body, 5.50 X 3.00 mm thermal pad
+&lt;p&gt;28-pin SOP package with 0.65 mm pitch, 6.38 mm span with body size 9.70 X 4.40 X 1.10 mm and thermal pad size 5.50 X 3.00 mm&lt;/p&gt;</description>
+<circle x="-4.25" y="4.75" radius="0.1" width="0.25" layer="21"/>
+<circle x="-1.5" y="4.25" radius="0.1" width="0.25" layer="21"/>
+<wire x1="-2.25" y1="4.6824" x2="-2.25" y2="4.9" width="0.12" layer="21"/>
+<wire x1="-2.25" y1="4.9" x2="2.25" y2="4.9" width="0.12" layer="21"/>
+<wire x1="2.25" y1="4.9" x2="2.25" y2="4.6824" width="0.12" layer="21"/>
+<wire x1="-2.25" y1="-4.6824" x2="-2.25" y2="-4.9" width="0.12" layer="21"/>
+<wire x1="-2.25" y1="-4.9" x2="2.25" y2="-4.9" width="0.12" layer="21"/>
+<wire x1="2.25" y1="-4.9" x2="2.25" y2="-4.6824" width="0.12" layer="21"/>
+<wire x1="-4" y1="5.25" x2="-4" y2="-5.25" width="0.127" layer="39"/>
+<wire x1="-4" y1="-5.25" x2="4" y2="-5.25" width="0.127" layer="39"/>
+<wire x1="4" y1="-5.25" x2="4" y2="5.25" width="0.127" layer="39"/>
+<wire x1="4" y1="5.25" x2="-4" y2="5.25" width="0.127" layer="39"/>
+<wire x1="0" y1="0.5" x2="0" y2="-0.5" width="0.127" layer="23"/>
+<wire x1="-0.5" y1="0" x2="0.5" y2="0" width="0.127" layer="23"/>
+<smd name="1" x="-2.8735" y="4.225" dx="1.4769" dy="0.4068" layer="1"/>
+<smd name="2" x="-2.8735" y="3.575" dx="1.4769" dy="0.4068" layer="1"/>
+<smd name="3" x="-2.8735" y="2.925" dx="1.4769" dy="0.4068" layer="1"/>
+<smd name="4" x="-2.8735" y="2.275" dx="1.4769" dy="0.4068" layer="1"/>
+<smd name="5" x="-2.8735" y="1.625" dx="1.4769" dy="0.4068" layer="1"/>
+<smd name="6" x="-2.8735" y="0.975" dx="1.4769" dy="0.4068" layer="1"/>
+<smd name="7" x="-2.8735" y="0.325" dx="1.4769" dy="0.4068" layer="1"/>
+<smd name="8" x="-2.8735" y="-0.325" dx="1.4769" dy="0.4068" layer="1"/>
+<smd name="9" x="-2.8735" y="-0.975" dx="1.4769" dy="0.4068" layer="1"/>
+<smd name="10" x="-2.8735" y="-1.625" dx="1.4769" dy="0.4068" layer="1"/>
+<smd name="11" x="-2.8735" y="-2.275" dx="1.4769" dy="0.4068" layer="1"/>
+<smd name="12" x="-2.8735" y="-2.925" dx="1.4769" dy="0.4068" layer="1"/>
+<smd name="13" x="-2.8735" y="-3.575" dx="1.4769" dy="0.4068" layer="1"/>
+<smd name="14" x="-2.8735" y="-4.225" dx="1.4769" dy="0.4068" layer="1"/>
+<smd name="15" x="2.8735" y="-4.225" dx="1.4769" dy="0.4068" layer="1"/>
+<smd name="16" x="2.8735" y="-3.575" dx="1.4769" dy="0.4068" layer="1"/>
+<smd name="17" x="2.8735" y="-2.925" dx="1.4769" dy="0.4068" layer="1"/>
+<smd name="18" x="2.8735" y="-2.275" dx="1.4769" dy="0.4068" layer="1"/>
+<smd name="19" x="2.8735" y="-1.625" dx="1.4769" dy="0.4068" layer="1"/>
+<smd name="20" x="2.8735" y="-0.975" dx="1.4769" dy="0.4068" layer="1"/>
+<smd name="21" x="2.8735" y="-0.325" dx="1.4769" dy="0.4068" layer="1"/>
+<smd name="22" x="2.8735" y="0.325" dx="1.4769" dy="0.4068" layer="1"/>
+<smd name="23" x="2.8735" y="0.975" dx="1.4769" dy="0.4068" layer="1"/>
+<smd name="24" x="2.8735" y="1.625" dx="1.4769" dy="0.4068" layer="1"/>
+<smd name="25" x="2.8735" y="2.275" dx="1.4769" dy="0.4068" layer="1"/>
+<smd name="26" x="2.8735" y="2.925" dx="1.4769" dy="0.4068" layer="1"/>
+<smd name="27" x="2.8735" y="3.575" dx="1.4769" dy="0.4068" layer="1"/>
+<smd name="28" x="2.8735" y="4.225" dx="1.4769" dy="0.4068" layer="1"/>
+<smd name="29" x="0" y="0" dx="3" dy="5.5" layer="1" thermals="no" cream="no"/>
+<rectangle x1="-1.025" y1="-1.9" x2="-0.125" y2="-0.8" layer="31"/>
+<rectangle x1="0.125" y1="-1.9" x2="1.025" y2="-0.8" layer="31"/>
+<rectangle x1="-1.025" y1="-0.55" x2="-0.125" y2="0.55" layer="31"/>
+<rectangle x1="0.125" y1="-0.55" x2="1.025" y2="0.55" layer="31"/>
+<rectangle x1="-1.025" y1="0.8" x2="-0.125" y2="1.9" layer="31"/>
+<rectangle x1="0.125" y1="0.8" x2="1.025" y2="1.9" layer="31"/>
+<text x="0" y="5.8174" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-5.535" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="TI_PBS_(S-PQFP-G32)" urn="urn:adsk.eagle:footprint:26067591/5" library_version="11">
+<description>32-QFP, 0.50 mm pitch, 7.00 mm span, 5.00 X 5.00 X 1.20 mm body
+&lt;p&gt;32-pin QFP package with 0.50 mm pitch, 7.00 mm lead span1 X 7.00 mm lead span2 with body size 5.00 X 5.00 X 1.20 mm&lt;/p&gt;</description>
+<wire x1="2.525" y1="-2.525" x2="-2.525" y2="-2.525" width="0.12" layer="51"/>
+<wire x1="-2.525" y1="-2.525" x2="-2.525" y2="2.525" width="0.12" layer="51"/>
+<wire x1="-2.525" y1="2.525" x2="2.525" y2="2.525" width="0.12" layer="51"/>
+<wire x1="2.525" y1="2.525" x2="2.525" y2="-2.525" width="0.12" layer="51"/>
+<wire x1="-2.25" y1="4.25" x2="2.25" y2="4.25" width="0.127" layer="39"/>
+<wire x1="2.25" y1="4.25" x2="4.25" y2="2.25" width="0.127" layer="39"/>
+<wire x1="4.25" y1="2.25" x2="4.25" y2="-2.25" width="0.127" layer="39"/>
+<wire x1="4.25" y1="-2.25" x2="2.25" y2="-4.25" width="0.127" layer="39"/>
+<wire x1="2.25" y1="-4.25" x2="-2.25" y2="-4.25" width="0.127" layer="39"/>
+<wire x1="2.125" y1="2.5" x2="2.5" y2="2.125" width="0.127" layer="21"/>
+<wire x1="2.5" y1="-2.125" x2="2.125" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="-2.125" x2="-2.125" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="-2.25" y1="4.25" x2="-4.25" y2="2.25" width="0.127" layer="39"/>
+<wire x1="-4.25" y1="2.25" x2="-4.25" y2="-2.25" width="0.127" layer="39"/>
+<wire x1="-4.25" y1="-2.25" x2="-2.25" y2="-4.25" width="0.127" layer="39"/>
+<smd name="1" x="-3.1954" y="1.75" dx="1.4384" dy="0.2569" layer="1"/>
+<smd name="2" x="-3.1954" y="1.25" dx="1.4384" dy="0.2569" layer="1"/>
+<smd name="3" x="-3.1954" y="0.75" dx="1.4384" dy="0.2569" layer="1"/>
+<smd name="4" x="-3.1954" y="0.25" dx="1.4384" dy="0.2569" layer="1"/>
+<smd name="5" x="-3.1954" y="-0.25" dx="1.4384" dy="0.2569" layer="1"/>
+<smd name="6" x="-3.1954" y="-0.75" dx="1.4384" dy="0.2569" layer="1"/>
+<smd name="7" x="-3.1954" y="-1.25" dx="1.4384" dy="0.2569" layer="1"/>
+<smd name="8" x="-3.1954" y="-1.75" dx="1.4384" dy="0.2569" layer="1"/>
+<smd name="9" x="-1.75" y="-3.1954" dx="1.4384" dy="0.2569" layer="1" rot="R90"/>
+<smd name="10" x="-1.25" y="-3.1954" dx="1.4384" dy="0.2569" layer="1" rot="R90"/>
+<smd name="11" x="-0.75" y="-3.1954" dx="1.4384" dy="0.2569" layer="1" rot="R90"/>
+<smd name="12" x="-0.25" y="-3.1954" dx="1.4384" dy="0.2569" layer="1" rot="R90"/>
+<smd name="13" x="0.25" y="-3.1954" dx="1.4384" dy="0.2569" layer="1" rot="R90"/>
+<smd name="14" x="0.75" y="-3.1954" dx="1.4384" dy="0.2569" layer="1" rot="R90"/>
+<smd name="15" x="1.25" y="-3.1954" dx="1.4384" dy="0.2569" layer="1" rot="R90"/>
+<smd name="16" x="1.75" y="-3.1954" dx="1.4384" dy="0.2569" layer="1" rot="R90"/>
+<smd name="17" x="3.1954" y="-1.75" dx="1.4384" dy="0.2569" layer="1"/>
+<smd name="18" x="3.1954" y="-1.25" dx="1.4384" dy="0.2569" layer="1"/>
+<smd name="19" x="3.1954" y="-0.75" dx="1.4384" dy="0.2569" layer="1"/>
+<smd name="20" x="3.1954" y="-0.25" dx="1.4384" dy="0.2569" layer="1"/>
+<smd name="21" x="3.1954" y="0.25" dx="1.4384" dy="0.2569" layer="1"/>
+<smd name="22" x="3.1954" y="0.75" dx="1.4384" dy="0.2569" layer="1"/>
+<smd name="23" x="3.1954" y="1.25" dx="1.4384" dy="0.2569" layer="1"/>
+<smd name="24" x="3.1954" y="1.75" dx="1.4384" dy="0.2569" layer="1"/>
+<smd name="25" x="1.75" y="3.1954" dx="1.4384" dy="0.2569" layer="1" rot="R90"/>
+<smd name="26" x="1.25" y="3.1954" dx="1.4384" dy="0.2569" layer="1" rot="R90"/>
+<smd name="27" x="0.75" y="3.1954" dx="1.4384" dy="0.2569" layer="1" rot="R90"/>
+<smd name="28" x="0.25" y="3.1954" dx="1.4384" dy="0.2569" layer="1" rot="R90"/>
+<smd name="29" x="-0.25" y="3.1954" dx="1.4384" dy="0.2569" layer="1" rot="R90"/>
+<smd name="30" x="-0.75" y="3.1954" dx="1.4384" dy="0.2569" layer="1" rot="R90"/>
+<smd name="31" x="-1.25" y="3.1954" dx="1.4384" dy="0.2569" layer="1" rot="R90"/>
+<smd name="32" x="-1.75" y="3.1954" dx="1.4384" dy="0.2569" layer="1" rot="R90"/>
+<text x="0" y="4.5496" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-4.5496" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+<polygon width="0.127" layer="21">
+<vertex x="-2.5" y="2.5"/>
+<vertex x="-2.125" y="2.5"/>
+<vertex x="-2.5" y="2.125"/>
+</polygon>
+<circle x="-3.25" y="2.25" radius="0.1" width="0.25" layer="21"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="MAXIM_MAX7456EUI+T" urn="urn:adsk.eagle:package:24316635/3" type="model" library_version="11">
+<description>28-SOP, 0.65 mm pitch, 6.38 mm span, 9.70 X 4.40 X 1.10 mm body, 5.50 X 3.00 mm thermal pad
+&lt;p&gt;28-pin SOP package with 0.65 mm pitch, 6.38 mm span with body size 9.70 X 4.40 X 1.10 mm and thermal pad size 5.50 X 3.00 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="MAXIM_MAX7456EUI+T"/>
+</packageinstances>
+</package3d>
+<package3d name="TI_PBS_(S-PQFP-G32)" urn="urn:adsk.eagle:package:26067601/5" type="model" library_version="11">
+<description>32-QFP, 0.50 mm pitch, 7.00 mm span, 5.00 X 5.00 X 1.20 mm body
+&lt;p&gt;32-pin QFP package with 0.50 mm pitch, 7.00 mm lead span1 X 7.00 mm lead span2 with body size 5.00 X 5.00 X 1.20 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="TI_PBS_(S-PQFP-G32)"/>
+</packageinstances>
+</package3d>
+</packages3d>
+</library>
+<library name="Skyhawkson-Connectors" urn="urn:adsk.eagle:library:23896875">
+<packages>
+<package name="SOLDER_PAD_1X3_3X2MM" urn="urn:adsk.eagle:footprint:26070997/1" library_version="21">
+<smd name="1" x="0" y="3" dx="3" dy="2" layer="1" roundness="50"/>
+<smd name="2" x="0" y="0" dx="3" dy="2" layer="1" roundness="50"/>
+<smd name="3" x="0" y="-3" dx="3" dy="2" layer="1" roundness="50"/>
+<wire x1="-2" y1="4.5" x2="-2" y2="-4.5" width="0.127" layer="41"/>
+<wire x1="-2" y1="-4.5" x2="2" y2="-4.5" width="0.127" layer="41"/>
+<wire x1="2" y1="-4.5" x2="2" y2="4.5" width="0.127" layer="41"/>
+<wire x1="2" y1="4.5" x2="-2" y2="4.5" width="0.127" layer="41"/>
+<wire x1="-1.75" y1="3.5" x2="-1.75" y2="4.25" width="0.127" layer="21"/>
+<wire x1="-1.75" y1="4.25" x2="-1" y2="4.25" width="0.127" layer="21"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="SOLDER_PAD_1X3_3X2MM" urn="urn:adsk.eagle:package:26070999/2" type="empty" library_version="21">
+<packageinstances>
+<packageinstance name="SOLDER_PAD_1X3_3X2MM"/>
+</packageinstances>
+</package3d>
+</packages3d>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -469,6 +625,19 @@ design rules under a new name.</description>
 <attribute name="NAME" x="-31.9" y="15.89" size="1.27" layer="25"/>
 <attribute name="VALUE" x="-31.9" y="0.89" size="1.27" layer="27"/>
 </element>
+<element name="U2" library="Skyhawkson-ICs" library_urn="urn:adsk.eagle:library:24316599" package="MAXIM_MAX7456EUI+T" package3d_urn="urn:adsk.eagle:package:24316635/3" value="" x="-37" y="8" smashed="yes">
+<attribute name="DKPN" value="(N/A) MAX7456EUI+CT-ND" x="-37" y="8" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-37" y="13.8174" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="VALUE" x="-37" y="2.465" size="1.27" layer="27" align="top-center"/>
+</element>
+<element name="U3" library="Skyhawkson-ICs" library_urn="urn:adsk.eagle:library:24316599" package="TI_PBS_(S-PQFP-G32)" package3d_urn="urn:adsk.eagle:package:26067601/5" value="TVP5150AM1PBSR" x="-46" y="7" smashed="yes">
+<attribute name="DKPN" value="296-17016-1-ND" x="-46" y="7" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-46" y="11.5496" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="VALUE" x="-46" y="2.4504" size="1.27" layer="27" align="top-center"/>
+</element>
+<element name="U$1" library="Skyhawkson-Connectors" library_urn="urn:adsk.eagle:library:23896875" package="SOLDER_PAD_1X3_3X2MM" package3d_urn="urn:adsk.eagle:package:26070999/2" value="SOLDER_PAD_1X3" x="-57" y="5" smashed="yes">
+<attribute name="DKPN" value="N/A" x="-57" y="5" size="1.778" layer="27" display="off"/>
+</element>
 </elements>
 <signals>
 <signal name="VBAT">
@@ -497,6 +666,53 @@ design rules under a new name.</description>
 </signal>
 <signal name="VCAP_1">
 <contactref element="U1" pad="30"/>
+</signal>
+<signal name="DVDD">
+<contactref element="U2" pad="3"/>
+<contactref element="U3" pad="20"/>
+<wire x1="-39.8735" y1="10.925" x2="-42.8046" y2="6.75" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="DGND">
+<contactref element="U2" pad="4"/>
+<contactref element="U3" pad="19"/>
+<wire x1="-39.8735" y1="10.275" x2="-42.8046" y2="6.25" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="AGND">
+<contactref element="U2" pad="20"/>
+<contactref element="U3" pad="3"/>
+<contactref element="U3" pad="7"/>
+<contactref element="U3" pad="31"/>
+<wire x1="-49.1954" y1="7.75" x2="-49.1954" y2="5.75" width="0" layer="19" extent="1-1"/>
+<wire x1="-47.25" y1="10.1954" x2="-49.1954" y2="7.75" width="0" layer="19" extent="1-1"/>
+<wire x1="-34.1265" y1="7.025" x2="-47.25" y2="10.1954" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="AVDD">
+<contactref element="U2" pad="21"/>
+<contactref element="U3" pad="32"/>
+<contactref element="U3" pad="4"/>
+<wire x1="-47.75" y1="10.1954" x2="-49.1954" y2="7.25" width="0" layer="19" extent="1-1"/>
+<wire x1="-34.1265" y1="7.675" x2="-47.75" y2="10.1954" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="PGND">
+<contactref element="U2" pad="23"/>
+</signal>
+<signal name="PVDD">
+<contactref element="U2" pad="24"/>
+</signal>
+<signal name="PAD">
+<contactref element="U2" pad="29"/>
+</signal>
+<signal name="IO_DVDD">
+<contactref element="U3" pad="10"/>
+</signal>
+<signal name="N$1">
+<contactref element="U$1" pad="1"/>
+</signal>
+<signal name="N$2">
+<contactref element="U$1" pad="2"/>
+</signal>
+<signal name="VID-IN">
+<contactref element="U$1" pad="3"/>
 </signal>
 </signals>
 <mfgpreviewcolors>

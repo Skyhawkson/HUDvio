@@ -523,6 +523,50 @@
 <text x="0" y="-6" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
 <circle x="-3.75" y="6.25" radius="0.1" width="0.25" layer="21"/>
 </package>
+<package name="CNC_3220-10-0300-00" urn="urn:adsk.eagle:footprint:26105693/2" library_version="27">
+<smd name="1" x="-2.54" y="-2.015" dx="0.65" dy="2.77" layer="1"/>
+<smd name="3" x="-1.27" y="-2.015" dx="0.65" dy="2.77" layer="1"/>
+<smd name="5" x="0" y="-2.015" dx="0.65" dy="2.77" layer="1"/>
+<smd name="7" x="1.27" y="-2.015" dx="0.65" dy="2.77" layer="1"/>
+<smd name="9" x="2.54" y="-2.015" dx="0.65" dy="2.77" layer="1"/>
+<smd name="2" x="-2.54" y="2.015" dx="0.65" dy="2.77" layer="1"/>
+<smd name="4" x="-1.27" y="2.015" dx="0.65" dy="2.77" layer="1"/>
+<smd name="6" x="0" y="2.015" dx="0.65" dy="2.77" layer="1"/>
+<smd name="8" x="1.27" y="2.015" dx="0.65" dy="2.77" layer="1"/>
+<smd name="10" x="2.54" y="2.015" dx="0.65" dy="2.77" layer="1"/>
+<wire x1="0" y1="0.5" x2="0" y2="-0.5" width="0.127" layer="23"/>
+<wire x1="-0.5" y1="0" x2="0.5" y2="0" width="0.127" layer="23"/>
+<wire x1="-7" y1="2.5" x2="-7" y2="3" width="0.127" layer="21"/>
+<wire x1="-7" y1="3" x2="-6.5" y2="3" width="0.127" layer="21"/>
+<wire x1="7" y1="-2.5" x2="7" y2="-3" width="0.127" layer="21"/>
+<wire x1="7" y1="-3" x2="6.5" y2="-3" width="0.127" layer="21"/>
+<wire x1="7" y1="3" x2="7" y2="2.5" width="0.127" layer="21"/>
+<wire x1="7" y1="3" x2="6.5" y2="3" width="0.127" layer="21"/>
+<wire x1="-7.25" y1="3.25" x2="-3.25" y2="3.25" width="0.127" layer="39"/>
+<wire x1="-3.25" y1="3.25" x2="-3.25" y2="3.75" width="0.127" layer="39"/>
+<wire x1="-3.25" y1="3.75" x2="3.25" y2="3.75" width="0.127" layer="39"/>
+<wire x1="3.25" y1="3.75" x2="3.25" y2="3.25" width="0.127" layer="39"/>
+<wire x1="3.25" y1="3.25" x2="7.25" y2="3.25" width="0.127" layer="39"/>
+<wire x1="7.25" y1="3.25" x2="7.25" y2="-3.25" width="0.127" layer="39"/>
+<wire x1="7.25" y1="-3.25" x2="3.25" y2="-3.25" width="0.127" layer="39"/>
+<wire x1="3.25" y1="-3.25" x2="3.25" y2="-3.75" width="0.127" layer="39"/>
+<wire x1="3.25" y1="-3.75" x2="1.25" y2="-3.75" width="0.127" layer="39"/>
+<wire x1="-1.25" y1="-3.75" x2="-3.25" y2="-3.75" width="0.127" layer="39"/>
+<wire x1="-3.25" y1="-3.75" x2="-3.25" y2="-3.25" width="0.127" layer="39"/>
+<wire x1="-3.25" y1="-3.25" x2="-7.25" y2="-3.25" width="0.127" layer="39"/>
+<wire x1="-7.25" y1="-3.25" x2="-7.25" y2="3.25" width="0.127" layer="39"/>
+<wire x1="-1.25" y1="-3.75" x2="-1.25" y2="-5.75" width="0.127" layer="39"/>
+<wire x1="-1.25" y1="-5.75" x2="1.25" y2="-5.75" width="0.127" layer="39"/>
+<wire x1="1.25" y1="-5.75" x2="1.25" y2="-3.75" width="0.127" layer="39"/>
+<circle x="-2.5" y="-4" radius="0.1" width="0.25" layer="21"/>
+<text x="-7" y="4" size="1.27" layer="25">&gt;NAME</text>
+<text x="-7" y="-4.5" size="1.27" layer="27" align="top-left">&gt;VALUE</text>
+<polygon width="0.127" layer="21">
+<vertex x="-7" y="-2.5"/>
+<vertex x="-6.5" y="-3"/>
+<vertex x="-7" y="-3"/>
+</polygon>
+</package>
 </packages>
 <packages3d>
 <package3d name="SOLDER_PAD_1X3_3X2MM" urn="urn:adsk.eagle:package:26070999/2" type="empty" library_version="21">
@@ -538,6 +582,11 @@
 <package3d name="PHOENIX_SPTAF1/X-3,5" urn="urn:adsk.eagle:package:26102990/3" type="model" library_version="23">
 <packageinstances>
 <packageinstance name="PHOENIX_SPTAF1/X-3,5"/>
+</packageinstances>
+</package3d>
+<package3d name="CNC_3220-10-0300-00" urn="urn:adsk.eagle:package:26105697/4" type="model" library_version="27">
+<packageinstances>
+<packageinstance name="CNC_3220-10-0300-00"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -1568,6 +1617,11 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <attribute name="TOL" value="10%" x="-165" y="-192" size="1.778" layer="27" display="off"/>
 <attribute name="VAL" value="1uF" x="-165" y="-192" size="1.778" layer="27" display="off"/>
 </element>
+<element name="U$30" library="Skyhawkson-Connectors" library_urn="urn:adsk.eagle:library:23896875" package="CNC_3220-10-0300-00" package3d_urn="urn:adsk.eagle:package:26105697/4" value="SWD_HEADER" x="-160" y="-199" smashed="yes">
+<attribute name="DKPN" value="1175-1629-ND" x="-160" y="-199" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-167" y="-195" size="1.27" layer="25"/>
+<attribute name="VALUE" x="-167" y="-203.5" size="1.27" layer="27" align="top-left"/>
+</element>
 </elements>
 <signals>
 <signal name="VBAT">
@@ -1655,6 +1709,9 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <contactref element="U8" pad="FIN34"/>
 <contactref element="U8" pad="FIN33"/>
 <contactref element="C31" pad="P$2"/>
+<contactref element="U$30" pad="5"/>
+<contactref element="U$30" pad="3"/>
+<contactref element="U$30" pad="9"/>
 <wire x1="-114.395" y1="-131.75" x2="-117.755" y2="-131.35" width="0" layer="19" extent="1-1"/>
 <wire x1="-117.85" y1="-139" x2="-117.755" y2="-131.35" width="0" layer="19" extent="1-1"/>
 <wire x1="-116.075" y1="-142" x2="-117.85" y2="-139" width="0" layer="19" extent="1-1"/>
@@ -1711,6 +1768,9 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <wire x1="-155.25" y1="-176.5" x2="-158.75" y2="-176.5" width="0" layer="19" extent="1-1"/>
 <wire x1="-164.075" y1="-189" x2="-158.75" y2="-181.5" width="0" layer="19" extent="1-1"/>
 <wire x1="-165.925" y1="-189" x2="-164.075" y2="-189" width="0" layer="19" extent="1-1"/>
+<wire x1="-161.27" y1="-201.015" x2="-164.075" y2="-189" width="0" layer="19" extent="1-1"/>
+<wire x1="-160" y1="-201.015" x2="-161.27" y2="-201.015" width="0" layer="19" extent="1-1"/>
+<wire x1="-157.46" y1="-201.015" x2="-160" y2="-201.015" width="0" layer="19" extent="1-1"/>
 <wire x1="-70.075" y1="-26" x2="-70.15" y2="-49" width="0" layer="19" extent="1-1"/>
 <wire x1="-70.075" y1="-23" x2="-70.075" y2="-26" width="0" layer="19" extent="1-1"/>
 <wire x1="-69.85" y1="-18.875" x2="-70.075" y2="-23" width="0" layer="19" extent="1-1"/>
@@ -1718,9 +1778,7 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <wire x1="-66.8735" y1="-11.725" x2="-72.15" y2="-17.125" width="0" layer="19" extent="1-1"/>
 <wire x1="-61.1265" y1="-13.025" x2="-66.8735" y2="-11.725" width="0" layer="19" extent="1-1"/>
 <wire x1="-61.1265" y1="-14.975" x2="-61.1265" y2="-13.025" width="0" layer="19" extent="1-1"/>
-<wire x1="83" y1="41" x2="-61.1265" y2="-13.025" width="0" layer="19" extent="1-1"/>
-<wire x1="2" y1="41" x2="83" y2="41" width="0" layer="19" extent="1-1"/>
-<wire x1="-49.1954" y1="5.75" x2="2" y2="41" width="0" layer="19" extent="1-1"/>
+<wire x1="-49.1954" y1="5.75" x2="-61.1265" y2="-13.025" width="0" layer="19" extent="1-1"/>
 <wire x1="-49.1954" y1="7.75" x2="-49.1954" y2="5.75" width="0" layer="19" extent="1-1"/>
 <wire x1="-47.25" y1="10.1954" x2="-49.1954" y2="7.75" width="0" layer="19" extent="1-1"/>
 <wire x1="-42.8046" y1="6.25" x2="-47.25" y2="10.1954" width="0" layer="19" extent="1-1"/>
@@ -1729,6 +1787,8 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <wire x1="-22.15" y1="3.14" x2="-28.65" y2="3.14" width="0" layer="19" extent="1-1"/>
 <wire x1="-28.65" y1="14.64" x2="-31.15" y2="7.14" width="0" layer="19" extent="1-1"/>
 <wire x1="-19.65" y1="12.14" x2="-22.15" y2="3.14" width="0" layer="19" extent="1-1"/>
+<wire x1="2" y1="41" x2="-19.65" y2="12.14" width="0" layer="19" extent="1-1"/>
+<wire x1="83" y1="41" x2="2" y2="41" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VCAP_1">
 <contactref element="U1" pad="30"/>
@@ -1975,6 +2035,7 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <contactref element="U1" pad="64"/>
 <contactref element="C29" pad="P$2"/>
 <contactref element="U7" pad="5"/>
+<contactref element="U$30" pad="1"/>
 <wire x1="-106.26" y1="-121.9" x2="-112.195" y2="-131.75" width="0" layer="19" extent="1-1"/>
 <wire x1="-116.15" y1="-145" x2="-112.195" y2="-131.75" width="0" layer="19" extent="1-1"/>
 <wire x1="-116.15" y1="-148" x2="-116.15" y2="-145" width="0" layer="19" extent="1-1"/>
@@ -1989,6 +2050,7 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <wire x1="-85.8717" y1="-121.375" x2="-106.26" y2="-121.9" width="0" layer="19" extent="1-1"/>
 <wire x1="-75.075" y1="-100" x2="-85.8717" y2="-121.375" width="0" layer="19" extent="1-1"/>
 <wire x1="-76.85" y1="-85" x2="-75.075" y2="-100" width="0" layer="19" extent="1-1"/>
+<wire x1="-162.54" y1="-201.015" x2="-140.075" y2="-183" width="0" layer="19" extent="1-1"/>
 <wire x1="-47.25" y1="3.8046" x2="-76.85" y2="-85" width="0" layer="19" extent="1-1"/>
 <wire x1="-31.15" y1="6.64" x2="-47.25" y2="3.8046" width="0" layer="19" extent="1-1"/>
 <wire x1="-28.15" y1="3.14" x2="-31.15" y2="6.64" width="0" layer="19" extent="1-1"/>
@@ -2186,10 +2248,12 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <contactref element="U1" pad="56"/>
 <wire x1="-25.15" y1="14.64" x2="-109.995" y2="-131.75" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="N$16">
+<signal name="!RST">
 <contactref element="U1" pad="7"/>
 <contactref element="S1" pad="2"/>
-<wire x1="-112.75" y1="-163.925" x2="-31.15" y2="9.64" width="0" layer="19" extent="1-1"/>
+<contactref element="U$30" pad="10"/>
+<wire x1="-112.75" y1="-163.925" x2="-157.46" y2="-196.985" width="0" layer="19" extent="1-1"/>
+<wire x1="-31.15" y1="9.64" x2="-112.75" y2="-163.925" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$17">
 <contactref element="R22" pad="1"/>
@@ -2207,6 +2271,16 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <contactref element="U7" pad="2"/>
 <wire x1="-141.925" y1="-183" x2="-141.925" y2="-186" width="0" layer="19" extent="1-1"/>
 <wire x1="-136.2722" y1="-177" x2="-141.925" y2="-183" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="SWCLK">
+<contactref element="U$30" pad="4"/>
+<contactref element="U1" pad="49"/>
+<wire x1="-21.65" y1="14.64" x2="-161.27" y2="-196.985" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="SWDIO">
+<contactref element="U1" pad="46"/>
+<contactref element="U$30" pad="2"/>
+<wire x1="-19.65" y1="11.64" x2="-162.54" y2="-196.985" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>

@@ -1786,6 +1786,10 @@ substrate as a diffuser</text>
 <wire x1="248.92" y1="81.28" x2="172.72" y2="81.28" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="172.72" y1="81.28" x2="172.72" y2="121.92" width="0.1524" layer="97" style="shortdash"/>
 <text x="172.72" y="122.174" size="1.27" layer="97">Bidirectional Level Shifter for Comms. w/MAX7456</text>
+<text x="53.34" y="40.64" size="1.27" layer="97">5150 SYSCLK = 2x PIXCLK. Might be
+an issue, but might be necessary
+due to YCbCr format. Can probably 
+adjust in firmware as needed</text>
 </plain>
 <instances>
 <instance part="PRIMARY_MICROPROCESSOR" gate="G$1" x="0" y="0" smashed="yes">
@@ -1793,9 +1797,9 @@ substrate as a diffuser</text>
 <attribute name="LAST_DATE_TIME" x="217.17" y="10.16" size="2.286" layer="94"/>
 <attribute name="SHEET" x="230.505" y="5.08" size="2.54" layer="94"/>
 </instance>
-<instance part="U1" gate="G$1" x="72.39" y="120.65" smashed="yes">
-<attribute name="VALUE" x="107.95" y="100.33" size="1.778" layer="96" align="bottom-center"/>
-<attribute name="NAME" x="77.47" y="133.858" size="1.778" layer="95"/>
+<instance part="U1" gate="G$1" x="38.1" y="127" smashed="yes">
+<attribute name="VALUE" x="73.66" y="106.68" size="1.778" layer="96" align="bottom-center"/>
+<attribute name="NAME" x="43.18" y="140.208" size="1.778" layer="95"/>
 </instance>
 <instance part="D1" gate="G$1" x="203.2" y="152.4" smashed="yes">
 <attribute name="VALUE" x="208.28" y="145.542" size="1.27" layer="96"/>
@@ -2006,6 +2010,83 @@ substrate as a diffuser</text>
 <pinref part="U4" gate="G$1" pin="A5"/>
 <wire x1="185.42" y1="88.9" x2="177.8" y2="88.9" width="0.1524" layer="91"/>
 <label x="177.8" y="88.9" size="1.27" layer="95"/>
+</segment>
+</net>
+<net name="YOUT7" class="0">
+<segment>
+<label x="60.96" y="147.32" size="1.27" layer="95" rot="MR90" xref="yes"/>
+<pinref part="U1" gate="G$1" pin="PB9@62"/>
+<wire x1="60.96" y1="147.32" x2="60.96" y2="144.78" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="YOUT0" class="0">
+<segment>
+<wire x1="111.76" y1="99.06" x2="114.3" y2="99.06" width="0.1524" layer="91"/>
+<label x="114.3" y="99.06" size="1.27" layer="95" xref="yes"/>
+<pinref part="U1" gate="G$1" pin="PC6@37"/>
+</segment>
+</net>
+<net name="YOUT1" class="0">
+<segment>
+<wire x1="111.76" y1="101.6" x2="114.3" y2="101.6" width="0.1524" layer="91"/>
+<label x="114.3" y="101.6" size="1.27" layer="95" xref="yes"/>
+<pinref part="U1" gate="G$1" pin="PC7@38"/>
+</segment>
+</net>
+<net name="YOUT2" class="0">
+<segment>
+<wire x1="111.76" y1="104.14" x2="114.3" y2="104.14" width="0.1524" layer="91"/>
+<label x="114.3" y="104.14" size="1.27" layer="95" rot="MR180" xref="yes"/>
+<pinref part="U1" gate="G$1" pin="PC8@39"/>
+</segment>
+</net>
+<net name="YOUT3" class="0">
+<segment>
+<wire x1="111.76" y1="106.68" x2="114.3" y2="106.68" width="0.1524" layer="91"/>
+<label x="114.3" y="106.68" size="1.27" layer="95" rot="MR180" xref="yes"/>
+<pinref part="U1" gate="G$1" pin="PC9@40"/>
+</segment>
+</net>
+<net name="YOUT4" class="0">
+<segment>
+<wire x1="86.36" y1="144.78" x2="86.36" y2="147.32" width="0.1524" layer="91"/>
+<label x="86.36" y="147.32" size="1.27" layer="95" rot="MR90" xref="yes"/>
+<pinref part="U1" gate="G$1" pin="PC11@52"/>
+</segment>
+</net>
+<net name="YOUT5" class="0">
+<segment>
+<wire x1="71.12" y1="144.78" x2="71.12" y2="147.32" width="0.1524" layer="91"/>
+<label x="71.12" y="147.32" size="1.27" layer="95" rot="MR90" xref="yes"/>
+<pinref part="U1" gate="G$1" pin="PB6@58"/>
+</segment>
+</net>
+<net name="YOUT6" class="0">
+<segment>
+<label x="63.5" y="147.32" size="1.27" layer="95" rot="MR90" xref="yes"/>
+<pinref part="U1" gate="G$1" pin="PB8@61"/>
+<wire x1="63.5" y1="147.32" x2="63.5" y2="144.78" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="DCMI_HSYNC" class="0">
+<segment>
+<wire x1="63.5" y1="71.12" x2="63.5" y2="68.58" width="0.1524" layer="91"/>
+<label x="63.5" y="68.58" size="1.27" layer="95" rot="R270" xref="yes"/>
+<pinref part="U1" gate="G$1" pin="PA4@20"/>
+</segment>
+</net>
+<net name="DCMI_VSYNC" class="0">
+<segment>
+<wire x1="68.58" y1="144.78" x2="68.58" y2="147.32" width="0.1524" layer="91"/>
+<label x="68.58" y="147.32" size="1.27" layer="95" rot="R90" xref="yes"/>
+<pinref part="U1" gate="G$1" pin="PB7@59"/>
+</segment>
+</net>
+<net name="SYSCLK" class="0">
+<segment>
+<label x="68.58" y="68.58" size="1.27" layer="95" rot="R270" xref="yes"/>
+<pinref part="U1" gate="G$1" pin="PA6@22"/>
+<wire x1="68.58" y1="71.12" x2="68.58" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
@@ -2640,7 +2721,7 @@ to BAh upon chip startup</text>
 <pinref part="U2" gate="G$1" pin="!RESET!@19"/>
 </segment>
 </net>
-<net name="VIDIN" class="0">
+<net name="VIDIN" class="1">
 <segment>
 <pinref part="U2" gate="G$1" pin="VIDIN@22"/>
 <wire x1="147.32" y1="134.62" x2="172.72" y2="134.62" width="0.1524" layer="91"/>
@@ -2648,7 +2729,7 @@ to BAh upon chip startup</text>
 <pinref part="C7" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="VIDOUT" class="0">
+<net name="VIDOUT" class="1">
 <segment>
 <wire x1="172.72" y1="144.78" x2="172.72" y2="154.94" width="0.1524" layer="91"/>
 <pinref part="U2" gate="G$1" pin="VIDOUT@26"/>
@@ -2658,7 +2739,7 @@ to BAh upon chip startup</text>
 <label x="149.86" y="144.78" size="1.27" layer="95"/>
 </segment>
 </net>
-<net name="MAX7456-OUT" class="0">
+<net name="MAX7456-OUT" class="1">
 <segment>
 <pinref part="R8" gate="G$1" pin="2"/>
 <wire x1="198.12" y1="154.94" x2="213.36" y2="154.94" width="0.1524" layer="91"/>
@@ -2882,7 +2963,7 @@ to BAh upon chip startup</text>
 <junction x="104.14" y="60.96"/>
 </segment>
 </net>
-<net name="5150-IN" class="0">
+<net name="5150-IN" class="1">
 <segment>
 <pinref part="U3" gate="G$1" pin="AIP1A@1"/>
 <wire x1="129.54" y1="81.28" x2="111.76" y2="81.28" width="0.1524" layer="91"/>
@@ -2959,7 +3040,7 @@ to BAh upon chip startup</text>
 <wire x1="30.48" y1="35.56" x2="10.16" y2="35.56" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="SPLITTER-OUT" class="0">
+<net name="SPLITTER-OUT" class="1">
 <segment>
 <pinref part="U5" gate="G$1" pin="OUT@1"/>
 <pinref part="R17" gate="G$1" pin="1"/>
@@ -2985,7 +3066,7 @@ to BAh upon chip startup</text>
 <wire x1="22.86" y1="22.86" x2="25.4" y2="22.86" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="VTX-OUT" class="0">
+<net name="VTX-OUT" class="1">
 <segment>
 <pinref part="R17" gate="G$1" pin="2"/>
 <wire x1="66.04" y1="33.02" x2="76.2" y2="33.02" width="0.1524" layer="91"/>
@@ -2995,6 +3076,20 @@ to BAh upon chip startup</text>
 <pinref part="U$3" gate="G$1" pin="3"/>
 <wire x1="40.64" y1="111.76" x2="27.94" y2="111.76" width="0.1524" layer="91"/>
 <label x="27.94" y="111.76" size="1.27" layer="95"/>
+</segment>
+</net>
+<net name="DCMI_HSYNC" class="0">
+<segment>
+<pinref part="U3" gate="G$1" pin="HSYNC@25"/>
+<wire x1="175.26" y1="58.42" x2="180.34" y2="58.42" width="0.1524" layer="91"/>
+<label x="180.34" y="58.42" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="DCMI_VSYNC" class="0">
+<segment>
+<pinref part="U3" gate="G$1" pin="VSYNC/PALI@24"/>
+<wire x1="175.26" y1="55.88" x2="180.34" y2="55.88" width="0.1524" layer="91"/>
+<label x="180.34" y="55.88" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>

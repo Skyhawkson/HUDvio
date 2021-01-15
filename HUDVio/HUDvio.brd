@@ -1421,17 +1421,17 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <signal name="RED">
 <contactref element="R5" pad="2"/>
 </signal>
-<signal name="VIDIN">
+<signal name="VIDIN" class="1">
 <contactref element="U2" pad="22"/>
 <contactref element="C7" pad="P$1"/>
 <wire x1="-61.1265" y1="-13.675" x2="-71.925" y2="-61" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="VIDOUT">
+<signal name="VIDOUT" class="1">
 <contactref element="U2" pad="26"/>
 <contactref element="C5" pad="P$1"/>
 <wire x1="-61.1265" y1="-11.075" x2="-71.925" y2="-55" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="MAX7456-OUT">
+<signal name="MAX7456-OUT" class="1">
 <contactref element="R8" pad="2"/>
 </signal>
 <signal name="N$10">
@@ -1460,6 +1460,8 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 </signal>
 <signal name="SYSCLK">
 <contactref element="U3" pad="9"/>
+<contactref element="U1" pad="22"/>
+<wire x1="-26.65" y1="3.14" x2="-47.75" y2="3.8046" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="XTAL1">
 <contactref element="U3" pad="5"/>
@@ -1490,28 +1492,44 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <signal name="YOUT7">
 <contactref element="R11" pad="2"/>
 <contactref element="U3" pad="11"/>
+<contactref element="U1" pad="62"/>
 <wire x1="-46.75" y1="3.8046" x2="-75.15" y2="-85" width="0" layer="19" extent="1-1"/>
+<wire x1="-28.15" y1="14.64" x2="-46.75" y2="3.8046" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="YOUT0">
 <contactref element="U3" pad="18"/>
+<contactref element="U1" pad="37"/>
+<wire x1="-19.65" y1="7.14" x2="-42.8046" y2="5.75" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="YOUT1">
 <contactref element="U3" pad="17"/>
+<contactref element="U1" pad="38"/>
+<wire x1="-19.65" y1="7.64" x2="-42.8046" y2="5.25" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="YOUT2">
 <contactref element="U3" pad="16"/>
+<contactref element="U1" pad="39"/>
+<wire x1="-19.65" y1="8.14" x2="-44.25" y2="3.8046" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="YOUT3">
 <contactref element="U3" pad="15"/>
+<contactref element="U1" pad="40"/>
+<wire x1="-19.65" y1="8.64" x2="-44.75" y2="3.8046" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="YOUT4">
 <contactref element="U3" pad="14"/>
+<contactref element="U1" pad="52"/>
+<wire x1="-23.15" y1="14.64" x2="-45.25" y2="3.8046" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="YOUT5">
 <contactref element="U3" pad="13"/>
+<contactref element="U1" pad="58"/>
+<wire x1="-26.15" y1="14.64" x2="-45.75" y2="3.8046" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="YOUT6">
 <contactref element="U3" pad="12"/>
+<contactref element="U1" pad="61"/>
+<wire x1="-27.65" y1="14.64" x2="-46.25" y2="3.8046" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="FID/GLCO">
 <contactref element="U3" pad="23"/>
@@ -1538,7 +1556,7 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <wire x1="-75.075" y1="-91" x2="-75.075" y2="-94" width="0" layer="19" extent="1-1"/>
 <wire x1="-46.25" y1="10.1954" x2="-75.075" y2="-91" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="5150-IN">
+<signal name="5150-IN" class="1">
 <contactref element="U3" pad="1"/>
 <contactref element="C20" pad="P$2"/>
 <wire x1="-49.1954" y1="8.75" x2="-75.075" y2="-118" width="0" layer="19" extent="1-1"/>
@@ -1600,7 +1618,7 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <signal name="N$14">
 <contactref element="U5" pad="3"/>
 </signal>
-<signal name="SPLITTER-OUT">
+<signal name="SPLITTER-OUT" class="1">
 <contactref element="U5" pad="1"/>
 <contactref element="R17" pad="1"/>
 <contactref element="R14" pad="1"/>
@@ -1612,10 +1630,20 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <contactref element="R18" pad="1"/>
 <wire x1="-95.7533" y1="-127.95" x2="-103.85" y2="-136" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="VTX-OUT">
+<signal name="VTX-OUT" class="1">
 <contactref element="R17" pad="2"/>
 <contactref element="U$3" pad="3"/>
 <wire x1="-57" y1="-8" x2="-102.15" y2="-133" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="DCMI_HSYNC">
+<contactref element="U3" pad="25"/>
+<contactref element="U1" pad="20"/>
+<wire x1="-27.65" y1="3.14" x2="-44.25" y2="10.1954" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="DCMI_VSYNC">
+<contactref element="U3" pad="24"/>
+<contactref element="U1" pad="59"/>
+<wire x1="-26.65" y1="14.64" x2="-42.8046" y2="8.75" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>

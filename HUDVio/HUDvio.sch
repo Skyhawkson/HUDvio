@@ -1064,16 +1064,18 @@ DIN A4, landscape with location and doc. field</description>
 </library>
 <library name="Skyhawkson-Connectors" urn="urn:adsk.eagle:library:23896875">
 <packages>
-<package name="SOLDER_PAD_1X3_3X2MM" urn="urn:adsk.eagle:footprint:26070997/1" library_version="21">
+<package name="SOLDER_PAD_1X3_3X2MM" urn="urn:adsk.eagle:footprint:26070997/3" library_version="29">
 <smd name="1" x="0" y="3" dx="3" dy="2" layer="1" roundness="50"/>
 <smd name="2" x="0" y="0" dx="3" dy="2" layer="1" roundness="50"/>
 <smd name="3" x="0" y="-3" dx="3" dy="2" layer="1" roundness="50"/>
-<wire x1="-2" y1="4.5" x2="-2" y2="-4.5" width="0.127" layer="41"/>
-<wire x1="-2" y1="-4.5" x2="2" y2="-4.5" width="0.127" layer="41"/>
-<wire x1="2" y1="-4.5" x2="2" y2="4.5" width="0.127" layer="41"/>
-<wire x1="2" y1="4.5" x2="-2" y2="4.5" width="0.127" layer="41"/>
+<wire x1="-2" y1="4.5" x2="-2" y2="-4.5" width="0.127" layer="39"/>
+<wire x1="-2" y1="-4.5" x2="2" y2="-4.5" width="0.127" layer="39"/>
+<wire x1="2" y1="-4.5" x2="2" y2="4.5" width="0.127" layer="39"/>
+<wire x1="2" y1="4.5" x2="-2" y2="4.5" width="0.127" layer="39"/>
 <wire x1="-1.75" y1="3.5" x2="-1.75" y2="4.25" width="0.127" layer="21"/>
 <wire x1="-1.75" y1="4.25" x2="-1" y2="4.25" width="0.127" layer="21"/>
+<text x="-2" y="4.75" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2" y="-6" size="1.27" layer="27">&gt;VALUE</text>
 </package>
 <package name="MOLEX_1040310811" urn="urn:adsk.eagle:footprint:24291341/2" library_version="21">
 <smd name="P$1" x="3.105" y="0.25" dx="0.75" dy="1.1" layer="1" locked="yes"/>
@@ -1185,7 +1187,7 @@ DIN A4, landscape with location and doc. field</description>
 </package>
 </packages>
 <packages3d>
-<package3d name="SOLDER_PAD_1X3_3X2MM" urn="urn:adsk.eagle:package:26070999/2" type="empty" library_version="21">
+<package3d name="SOLDER_PAD_1X3_3X2MM" urn="urn:adsk.eagle:package:26070999/4" type="empty" library_version="29">
 <packageinstances>
 <packageinstance name="SOLDER_PAD_1X3_3X2MM"/>
 </packageinstances>
@@ -1207,7 +1209,7 @@ DIN A4, landscape with location and doc. field</description>
 </package3d>
 </packages3d>
 <symbols>
-<symbol name="CONN_GENERIC_3POS" urn="urn:adsk.eagle:symbol:26070998/2" library_version="21">
+<symbol name="CONN_GENERIC_3POS" urn="urn:adsk.eagle:symbol:26070998/3" library_version="27">
 <pin name="1" x="0" y="0" length="short" direction="pas"/>
 <pin name="2" x="0" y="-5.08" length="short" direction="pas"/>
 <pin name="3" x="0" y="-10.16" length="short" direction="pas"/>
@@ -1215,6 +1217,8 @@ DIN A4, landscape with location and doc. field</description>
 <wire x1="2.54" y1="-12.7" x2="7.62" y2="-12.7" width="0.254" layer="94"/>
 <wire x1="7.62" y1="-12.7" x2="7.62" y2="2.54" width="0.254" layer="94"/>
 <wire x1="7.62" y1="2.54" x2="2.54" y2="2.54" width="0.254" layer="94"/>
+<text x="2.54" y="2.794" size="1.27" layer="95">&gt;NAME</text>
+<text x="2.54" y="-12.954" size="1.27" layer="96" align="top-left">&gt;VALUE</text>
 </symbol>
 <symbol name="µSD_CARD_SPI_SHIELD_CD" urn="urn:adsk.eagle:symbol:24292565/1" library_version="21">
 <pin name="NC@1" x="33.02" y="-15.24" length="middle" direction="nc" rot="R180"/>
@@ -1278,7 +1282,7 @@ DIN A4, landscape with location and doc. field</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="SOLDER_PAD_1X3" urn="urn:adsk.eagle:component:26071000/3" library_version="21">
+<deviceset name="SOLDER_PAD_1X3" urn="urn:adsk.eagle:component:26071000/6" library_version="29">
 <gates>
 <gate name="G$1" symbol="CONN_GENERIC_3POS" x="0" y="0"/>
 </gates>
@@ -1290,7 +1294,7 @@ DIN A4, landscape with location and doc. field</description>
 <connect gate="G$1" pin="3" pad="3"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:26070999/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:26070999/4"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -1471,7 +1475,7 @@ DIN A4, landscape with location and doc. field</description>
 </library>
 <library name="Skyhawkson-Capacitors" urn="urn:adsk.eagle:library:23770361">
 <packages>
-<package name="KEMET_0805" urn="urn:adsk.eagle:footprint:23770362/1" library_version="4">
+<package name="KEMET_0805" urn="urn:adsk.eagle:footprint:23770362/3" library_version="8">
 <smd name="P$1" x="-0.925" y="0" dx="1.05" dy="1.4" layer="1"/>
 <smd name="P$2" x="0.925" y="0" dx="1.05" dy="1.4" layer="1"/>
 <wire x1="-0.25" y1="0.75" x2="0.25" y2="0.75" width="0.127" layer="21"/>
@@ -1484,10 +1488,12 @@ DIN A4, landscape with location and doc. field</description>
 <wire x1="1.75" y1="1" x2="1.75" y2="-1" width="0.127" layer="39"/>
 <wire x1="1.75" y1="-1" x2="-1.75" y2="-1" width="0.127" layer="39"/>
 <wire x1="-1.75" y1="-1" x2="-1.75" y2="1" width="0.127" layer="39"/>
+<text x="-1.75" y="1.25" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.75" y="-1.25" size="1.27" layer="27" align="top-left">&gt;VALUE</text>
 </package>
 </packages>
 <packages3d>
-<package3d name="KEMET_0805" urn="urn:adsk.eagle:package:23770363/2" type="model" library_version="4">
+<package3d name="KEMET_0805" urn="urn:adsk.eagle:package:23770363/4" type="model" library_version="8">
 <packageinstances>
 <packageinstance name="KEMET_0805"/>
 </packageinstances>
@@ -1509,7 +1515,7 @@ DIN A4, landscape with location and doc. field</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="18PF_0805" urn="urn:adsk.eagle:component:26073297/1" prefix="C" library_version="5">
+<deviceset name="18PF_0805" urn="urn:adsk.eagle:component:26073297/3" prefix="C" library_version="8">
 <gates>
 <gate name="G$1" symbol="CAP" x="0" y="0"/>
 </gates>
@@ -1520,7 +1526,7 @@ DIN A4, landscape with location and doc. field</description>
 <connect gate="G$1" pin="2" pad="P$2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23770363/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23770363/4"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -1535,7 +1541,7 @@ DIN A4, landscape with location and doc. field</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="10UF_0805" urn="urn:adsk.eagle:component:26073296/1" prefix="C" library_version="5">
+<deviceset name="10UF_0805" urn="urn:adsk.eagle:component:26073296/3" prefix="C" library_version="8">
 <gates>
 <gate name="G$1" symbol="CAP" x="0" y="0"/>
 </gates>
@@ -1546,7 +1552,7 @@ DIN A4, landscape with location and doc. field</description>
 <connect gate="G$1" pin="2" pad="P$2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23770363/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23770363/4"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -1561,7 +1567,7 @@ DIN A4, landscape with location and doc. field</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="100NF_0805" urn="urn:adsk.eagle:component:26071307/1" prefix="C" library_version="5">
+<deviceset name="100NF_0805" urn="urn:adsk.eagle:component:26071307/3" prefix="C" library_version="8">
 <gates>
 <gate name="G$1" symbol="CAP" x="0" y="0"/>
 </gates>
@@ -1572,7 +1578,7 @@ DIN A4, landscape with location and doc. field</description>
 <connect gate="G$1" pin="2" pad="P$2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23770363/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23770363/4"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -1587,7 +1593,7 @@ DIN A4, landscape with location and doc. field</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="30PF_0805" urn="urn:adsk.eagle:component:26074965/1" prefix="C" library_version="6">
+<deviceset name="30PF_0805" urn="urn:adsk.eagle:component:26074965/3" prefix="C" library_version="8">
 <gates>
 <gate name="G$1" symbol="CAP" x="0" y="0"/>
 </gates>
@@ -1598,7 +1604,7 @@ DIN A4, landscape with location and doc. field</description>
 <connect gate="G$1" pin="2" pad="P$2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23770363/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23770363/4"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -1613,7 +1619,7 @@ DIN A4, landscape with location and doc. field</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="1UF_0805" urn="urn:adsk.eagle:component:26071270/1" prefix="C" library_version="6">
+<deviceset name="1UF_0805" urn="urn:adsk.eagle:component:26071270/3" prefix="C" library_version="8">
 <gates>
 <gate name="G$1" symbol="CAP" x="0" y="0"/>
 </gates>
@@ -1624,7 +1630,7 @@ DIN A4, landscape with location and doc. field</description>
 <connect gate="G$1" pin="2" pad="P$2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23770363/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23770363/4"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -2037,10 +2043,10 @@ DIN A4, landscape with location and doc. field</description>
 </library>
 <library name="Skyhawkson-Power" urn="urn:adsk.eagle:library:26078409">
 <packages>
-<package name="MIC_SOT23-5LD-PL-1" urn="urn:adsk.eagle:footprint:26078441/1" library_version="3">
+<package name="MIC_SOT23-5LD-PL-1" urn="urn:adsk.eagle:footprint:26078441/3" library_version="10">
 <description>5-SOT23, 0.95 mm pitch, 2.80 mm span, 2.90 X 1.60 X 1.10 mm body
 &lt;p&gt;5-pin SOT23 package with 0.95 mm pitch, 2.80 mm span with body size 2.90 X 1.60 X 1.10 mm&lt;/p&gt;</description>
-<circle x="-1.354" y="1.7459" radius="0.25" width="0" layer="21"/>
+<circle x="-1.354" y="1.7459" radius="0.1" width="0.2" layer="21"/>
 <wire x1="-0.85" y1="1.5559" x2="0.85" y2="1.5559" width="0.12" layer="21"/>
 <wire x1="-0.85" y1="-1.5559" x2="0.85" y2="-1.5559" width="0.12" layer="21"/>
 <wire x1="0.85" y1="-1.5" x2="-0.85" y2="-1.5" width="0.12" layer="51"/>
@@ -2055,7 +2061,7 @@ DIN A4, landscape with location and doc. field</description>
 <text x="0" y="2.6309" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-2.1909" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
 </package>
-<package name="TOR_SOT-25" urn="urn:adsk.eagle:footprint:26096249/2" library_version="6">
+<package name="TOR_SOT-25" urn="urn:adsk.eagle:footprint:26096249/3" library_version="10">
 <description>5-SOT23, 0.95 mm pitch, 2.80 mm span, 2.90 X 1.65 X 1.10 mm body
 &lt;p&gt;5-pin SOT23 package with 0.95 mm pitch, 2.80 mm span with body size 2.90 X 1.65 X 1.10 mm&lt;/p&gt;</description>
 <wire x1="-0.9" y1="1.5686" x2="0.9" y2="1.5686" width="0.12" layer="21"/>
@@ -2071,7 +2077,7 @@ DIN A4, landscape with location and doc. field</description>
 <smd name="5" x="1.2722" y="0.95" dx="1.171" dy="0.6092" layer="1"/>
 <text x="0" y="2.6436" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-2.2036" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
-<circle x="-1.354" y="1.7459" radius="0.15" width="0" layer="21"/>
+<circle x="-1.354" y="1.7459" radius="0.1" width="0.2" layer="21"/>
 </package>
 <package name="ROHM_HTSOP-J8" urn="urn:adsk.eagle:footprint:26102363/2" library_version="10">
 <smd name="1" x="-2.625" y="1.905" dx="1.35" dy="0.75" layer="1"/>
@@ -2107,14 +2113,14 @@ DIN A4, landscape with location and doc. field</description>
 </package>
 </packages>
 <packages3d>
-<package3d name="MIC_SOT23-5LD-PL-1" urn="urn:adsk.eagle:package:26078442/2" type="model" library_version="3">
+<package3d name="MIC_SOT23-5LD-PL-1" urn="urn:adsk.eagle:package:26078442/4" type="model" library_version="10">
 <description>5-SOT23, 0.95 mm pitch, 2.80 mm span, 2.90 X 1.60 X 1.10 mm body
 &lt;p&gt;5-pin SOT23 package with 0.95 mm pitch, 2.80 mm span with body size 2.90 X 1.60 X 1.10 mm&lt;/p&gt;</description>
 <packageinstances>
 <packageinstance name="MIC_SOT23-5LD-PL-1"/>
 </packageinstances>
 </package3d>
-<package3d name="TOR_SOT-25" urn="urn:adsk.eagle:package:26096250/3" type="model" library_version="6">
+<package3d name="TOR_SOT-25" urn="urn:adsk.eagle:package:26096250/4" type="model" library_version="10">
 <description>5-SOT23, 0.95 mm pitch, 2.80 mm span, 2.90 X 1.65 X 1.10 mm body
 &lt;p&gt;5-pin SOT23 package with 0.95 mm pitch, 2.80 mm span with body size 2.90 X 1.65 X 1.10 mm&lt;/p&gt;</description>
 <packageinstances>
@@ -2191,7 +2197,7 @@ DIN A4, landscape with location and doc. field</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="MIC_MIC5504-1.8" urn="urn:adsk.eagle:component:26078490/2" prefix="U" library_version="4">
+<deviceset name="MIC_MIC5504-1.8" urn="urn:adsk.eagle:component:26078490/4" prefix="U" library_version="10">
 <gates>
 <gate name="G$1" symbol="MIC_MIC5504-1.8" x="0" y="0"/>
 </gates>
@@ -2204,7 +2210,7 @@ DIN A4, landscape with location and doc. field</description>
 <connect gate="G$1" pin="VOUT@5" pad="5"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:26078442/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:26078442/4"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -2214,7 +2220,7 @@ DIN A4, landscape with location and doc. field</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="TOR_XC6220B331" urn="urn:adsk.eagle:component:26099076/1" prefix="U" library_version="6">
+<deviceset name="TOR_XC6220B331" urn="urn:adsk.eagle:component:26099076/2" prefix="U" library_version="10">
 <gates>
 <gate name="G$1" symbol="TOR_XC6220B331" x="0" y="0"/>
 </gates>
@@ -2227,7 +2233,7 @@ DIN A4, landscape with location and doc. field</description>
 <connect gate="G$1" pin="VOUT@5" pad="5"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:26096250/3"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:26096250/4"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -2280,10 +2286,10 @@ DIN A4, landscape with location and doc. field</description>
 <part name="U1" library="Skyhawkson-Microcontrollers and Processors" library_urn="urn:adsk.eagle:library:23501288" deviceset="ST_STM32F446RET7" device="" package3d_urn="urn:adsk.eagle:package:24908249/6"/>
 <part name="VIDEO_HANDLING" library="Skyhawkson-Miscellaneous" library_urn="urn:adsk.eagle:library:23798804" deviceset="A4-FRAME" device=""/>
 <part name="U3" library="Skyhawkson-ICs" library_urn="urn:adsk.eagle:library:24316599" deviceset="TVP5150AM1PBSR" device="" package3d_urn="urn:adsk.eagle:package:26067601/5"/>
-<part name="U$1" library="Skyhawkson-Connectors" library_urn="urn:adsk.eagle:library:23896875" deviceset="SOLDER_PAD_1X3" device="" package3d_urn="urn:adsk.eagle:package:26070999/2"/>
+<part name="U$1" library="Skyhawkson-Connectors" library_urn="urn:adsk.eagle:library:23896875" deviceset="SOLDER_PAD_1X3" device="" package3d_urn="urn:adsk.eagle:package:26070999/4"/>
 <part name="U$2" library="Skyhawkson-Power Symbols" library_urn="urn:adsk.eagle:library:26071075" deviceset="+5V" device=""/>
 <part name="GND1" library="Skyhawkson-Power Symbols" library_urn="urn:adsk.eagle:library:26071075" deviceset="GND" device=""/>
-<part name="U$3" library="Skyhawkson-Connectors" library_urn="urn:adsk.eagle:library:23896875" deviceset="SOLDER_PAD_1X3" device="" package3d_urn="urn:adsk.eagle:package:26070999/2"/>
+<part name="U$3" library="Skyhawkson-Connectors" library_urn="urn:adsk.eagle:library:23896875" deviceset="SOLDER_PAD_1X3" device="" package3d_urn="urn:adsk.eagle:package:26070999/4"/>
 <part name="U$4" library="Skyhawkson-Power Symbols" library_urn="urn:adsk.eagle:library:26071075" deviceset="+5V" device=""/>
 <part name="GND2" library="Skyhawkson-Power Symbols" library_urn="urn:adsk.eagle:library:26071075" deviceset="GND" device=""/>
 <part name="U$5" library="Skyhawkson-Power Symbols" library_urn="urn:adsk.eagle:library:26071075" deviceset="+5V" device=""/>
@@ -2294,8 +2300,8 @@ DIN A4, landscape with location and doc. field</description>
 <part name="U2" library="Skyhawkson-ICs" library_urn="urn:adsk.eagle:library:24316599" deviceset="MAXIM_MAX7456" device="" package3d_urn="urn:adsk.eagle:package:24316635/4"/>
 <part name="X1" library="Skyhawkson-Miscellaneous" library_urn="urn:adsk.eagle:library:23798804" deviceset="ABRACON_ABM8-27.000MHZ" device="" package3d_urn="urn:adsk.eagle:package:26071428/5"/>
 <part name="GND4" library="Skyhawkson-Power Symbols" library_urn="urn:adsk.eagle:library:26071075" deviceset="GND" device=""/>
-<part name="C2" library="Skyhawkson-Capacitors" library_urn="urn:adsk.eagle:library:23770361" deviceset="18PF_0805" device="" package3d_urn="urn:adsk.eagle:package:23770363/2"/>
-<part name="C3" library="Skyhawkson-Capacitors" library_urn="urn:adsk.eagle:library:23770361" deviceset="18PF_0805" device="" package3d_urn="urn:adsk.eagle:package:23770363/2"/>
+<part name="C2" library="Skyhawkson-Capacitors" library_urn="urn:adsk.eagle:library:23770361" deviceset="18PF_0805" device="" package3d_urn="urn:adsk.eagle:package:23770363/4"/>
+<part name="C3" library="Skyhawkson-Capacitors" library_urn="urn:adsk.eagle:library:23770361" deviceset="18PF_0805" device="" package3d_urn="urn:adsk.eagle:package:23770363/4"/>
 <part name="D1" library="Skyhawkson-LEDs and Optoelectronics" library_urn="urn:adsk.eagle:library:23872950" deviceset="SUNLED_XZMDKCBDDG45S-9" device="" package3d_urn="urn:adsk.eagle:package:26042472/5"/>
 <part name="U$7" library="Skyhawkson-Power Symbols" library_urn="urn:adsk.eagle:library:26071075" deviceset="+5V" device=""/>
 <part name="R3" library="Skyhawkson-Resistors" library_urn="urn:adsk.eagle:library:23770414" deviceset="75R_0603" device="" package3d_urn="urn:adsk.eagle:package:26071182/3"/>
@@ -2305,44 +2311,44 @@ DIN A4, landscape with location and doc. field</description>
 <part name="R7" library="Skyhawkson-Resistors" library_urn="urn:adsk.eagle:library:23770414" deviceset="75R_0603" device="" package3d_urn="urn:adsk.eagle:package:26071182/3"/>
 <part name="GND5" library="Skyhawkson-Power Symbols" library_urn="urn:adsk.eagle:library:26071075" deviceset="GND" device=""/>
 <part name="R8" library="Skyhawkson-Resistors" library_urn="urn:adsk.eagle:library:23770414" deviceset="75R_0603" device="" package3d_urn="urn:adsk.eagle:package:26071182/3"/>
-<part name="C5" library="Skyhawkson-Capacitors" library_urn="urn:adsk.eagle:library:23770361" deviceset="10UF_0805" device="" package3d_urn="urn:adsk.eagle:package:23770363/2"/>
-<part name="C6" library="Skyhawkson-Capacitors" library_urn="urn:adsk.eagle:library:23770361" deviceset="10UF_0805" device="" package3d_urn="urn:adsk.eagle:package:23770363/2"/>
-<part name="C7" library="Skyhawkson-Capacitors" library_urn="urn:adsk.eagle:library:23770361" deviceset="100NF_0805" device="" package3d_urn="urn:adsk.eagle:package:23770363/2"/>
-<part name="C4" library="Skyhawkson-Capacitors" library_urn="urn:adsk.eagle:library:23770361" deviceset="100NF_0805" device="" package3d_urn="urn:adsk.eagle:package:23770363/2"/>
-<part name="C8" library="Skyhawkson-Capacitors" library_urn="urn:adsk.eagle:library:23770361" deviceset="100NF_0805" device="" package3d_urn="urn:adsk.eagle:package:23770363/2"/>
+<part name="C5" library="Skyhawkson-Capacitors" library_urn="urn:adsk.eagle:library:23770361" deviceset="10UF_0805" device="" package3d_urn="urn:adsk.eagle:package:23770363/4"/>
+<part name="C6" library="Skyhawkson-Capacitors" library_urn="urn:adsk.eagle:library:23770361" deviceset="10UF_0805" device="" package3d_urn="urn:adsk.eagle:package:23770363/4"/>
+<part name="C7" library="Skyhawkson-Capacitors" library_urn="urn:adsk.eagle:library:23770361" deviceset="100NF_0805" device="" package3d_urn="urn:adsk.eagle:package:23770363/4"/>
+<part name="C4" library="Skyhawkson-Capacitors" library_urn="urn:adsk.eagle:library:23770361" deviceset="100NF_0805" device="" package3d_urn="urn:adsk.eagle:package:23770363/4"/>
+<part name="C8" library="Skyhawkson-Capacitors" library_urn="urn:adsk.eagle:library:23770361" deviceset="100NF_0805" device="" package3d_urn="urn:adsk.eagle:package:23770363/4"/>
 <part name="U$8" library="Skyhawkson-Power Symbols" library_urn="urn:adsk.eagle:library:26071075" deviceset="+5V" device=""/>
 <part name="GND6" library="Skyhawkson-Power Symbols" library_urn="urn:adsk.eagle:library:26071075" deviceset="GND" device=""/>
-<part name="C9" library="Skyhawkson-Capacitors" library_urn="urn:adsk.eagle:library:23770361" deviceset="100NF_0805" device="" package3d_urn="urn:adsk.eagle:package:23770363/2"/>
+<part name="C9" library="Skyhawkson-Capacitors" library_urn="urn:adsk.eagle:library:23770361" deviceset="100NF_0805" device="" package3d_urn="urn:adsk.eagle:package:23770363/4"/>
 <part name="R9" library="Skyhawkson-Resistors" library_urn="urn:adsk.eagle:library:23770414" deviceset="1K_0603" device="" package3d_urn="urn:adsk.eagle:package:26071182/3"/>
 <part name="U$9" library="Skyhawkson-Power Symbols" library_urn="urn:adsk.eagle:library:26071075" deviceset="+5V" device=""/>
 <part name="R10" library="Skyhawkson-Resistors" library_urn="urn:adsk.eagle:library:23770414" deviceset="1K_0603" device="" package3d_urn="urn:adsk.eagle:package:26071182/3"/>
 <part name="U$10" library="Skyhawkson-Power Symbols" library_urn="urn:adsk.eagle:library:26071075" deviceset="+5V" device=""/>
 <part name="X2" library="Skyhawkson-Miscellaneous" library_urn="urn:adsk.eagle:library:23798804" deviceset="ABRACON_ABM8-14.31818MHZ" device="" package3d_urn="urn:adsk.eagle:package:26071428/5"/>
-<part name="C1" library="Skyhawkson-Capacitors" library_urn="urn:adsk.eagle:library:23770361" deviceset="30PF_0805" device="" package3d_urn="urn:adsk.eagle:package:23770363/2"/>
-<part name="C10" library="Skyhawkson-Capacitors" library_urn="urn:adsk.eagle:library:23770361" deviceset="30PF_0805" device="" package3d_urn="urn:adsk.eagle:package:23770363/2"/>
+<part name="C1" library="Skyhawkson-Capacitors" library_urn="urn:adsk.eagle:library:23770361" deviceset="30PF_0805" device="" package3d_urn="urn:adsk.eagle:package:23770363/4"/>
+<part name="C10" library="Skyhawkson-Capacitors" library_urn="urn:adsk.eagle:library:23770361" deviceset="30PF_0805" device="" package3d_urn="urn:adsk.eagle:package:23770363/4"/>
 <part name="GND7" library="Skyhawkson-Power Symbols" library_urn="urn:adsk.eagle:library:26071075" deviceset="GND" device=""/>
 <part name="U$11" library="Skyhawkson-Power Symbols" library_urn="urn:adsk.eagle:library:26071075" deviceset="+3V3" device=""/>
 <part name="U$12" library="Skyhawkson-Power Symbols" library_urn="urn:adsk.eagle:library:26071075" deviceset="+3V3" device=""/>
 <part name="R11" library="Skyhawkson-Resistors" library_urn="urn:adsk.eagle:library:23770414" deviceset="1K_0603" device="" package3d_urn="urn:adsk.eagle:package:26071182/3"/>
 <part name="R12" library="Skyhawkson-Resistors" library_urn="urn:adsk.eagle:library:23770414" deviceset="1K_0603" device="" package3d_urn="urn:adsk.eagle:package:26071182/3"/>
-<part name="C11" library="Skyhawkson-Capacitors" library_urn="urn:adsk.eagle:library:23770361" deviceset="1UF_0805" device="" package3d_urn="urn:adsk.eagle:package:23770363/2"/>
-<part name="C12" library="Skyhawkson-Capacitors" library_urn="urn:adsk.eagle:library:23770361" deviceset="1UF_0805" device="" package3d_urn="urn:adsk.eagle:package:23770363/2"/>
-<part name="C13" library="Skyhawkson-Capacitors" library_urn="urn:adsk.eagle:library:23770361" deviceset="1UF_0805" device="" package3d_urn="urn:adsk.eagle:package:23770363/2"/>
+<part name="C11" library="Skyhawkson-Capacitors" library_urn="urn:adsk.eagle:library:23770361" deviceset="1UF_0805" device="" package3d_urn="urn:adsk.eagle:package:23770363/4"/>
+<part name="C12" library="Skyhawkson-Capacitors" library_urn="urn:adsk.eagle:library:23770361" deviceset="1UF_0805" device="" package3d_urn="urn:adsk.eagle:package:23770363/4"/>
+<part name="C13" library="Skyhawkson-Capacitors" library_urn="urn:adsk.eagle:library:23770361" deviceset="1UF_0805" device="" package3d_urn="urn:adsk.eagle:package:23770363/4"/>
 <part name="GND8" library="Skyhawkson-Power Symbols" library_urn="urn:adsk.eagle:library:26071075" deviceset="GND" device=""/>
-<part name="C14" library="Skyhawkson-Capacitors" library_urn="urn:adsk.eagle:library:23770361" deviceset="100NF_0805" device="" package3d_urn="urn:adsk.eagle:package:23770363/2"/>
+<part name="C14" library="Skyhawkson-Capacitors" library_urn="urn:adsk.eagle:library:23770361" deviceset="100NF_0805" device="" package3d_urn="urn:adsk.eagle:package:23770363/4"/>
 <part name="GND9" library="Skyhawkson-Power Symbols" library_urn="urn:adsk.eagle:library:26071075" deviceset="GND" device=""/>
 <part name="GND10" library="Skyhawkson-Power Symbols" library_urn="urn:adsk.eagle:library:26071075" deviceset="GND" device=""/>
-<part name="C15" library="Skyhawkson-Capacitors" library_urn="urn:adsk.eagle:library:23770361" deviceset="100NF_0805" device="" package3d_urn="urn:adsk.eagle:package:23770363/2"/>
+<part name="C15" library="Skyhawkson-Capacitors" library_urn="urn:adsk.eagle:library:23770361" deviceset="100NF_0805" device="" package3d_urn="urn:adsk.eagle:package:23770363/4"/>
 <part name="GND11" library="Skyhawkson-Power Symbols" library_urn="urn:adsk.eagle:library:26071075" deviceset="GND" device=""/>
 <part name="GND12" library="Skyhawkson-Power Symbols" library_urn="urn:adsk.eagle:library:26071075" deviceset="GND" device=""/>
 <part name="U$13" library="Skyhawkson-Power Symbols" library_urn="urn:adsk.eagle:library:26071075" deviceset="+1V8" device=""/>
 <part name="U$14" library="Skyhawkson-Power Symbols" library_urn="urn:adsk.eagle:library:26071075" deviceset="+1V8" device=""/>
-<part name="C16" library="Skyhawkson-Capacitors" library_urn="urn:adsk.eagle:library:23770361" deviceset="100NF_0805" device="" package3d_urn="urn:adsk.eagle:package:23770363/2"/>
-<part name="C17" library="Skyhawkson-Capacitors" library_urn="urn:adsk.eagle:library:23770361" deviceset="100NF_0805" device="" package3d_urn="urn:adsk.eagle:package:23770363/2"/>
-<part name="C18" library="Skyhawkson-Capacitors" library_urn="urn:adsk.eagle:library:23770361" deviceset="100NF_0805" device="" package3d_urn="urn:adsk.eagle:package:23770363/2"/>
-<part name="C19" library="Skyhawkson-Capacitors" library_urn="urn:adsk.eagle:library:23770361" deviceset="100NF_0805" device="" package3d_urn="urn:adsk.eagle:package:23770363/2"/>
+<part name="C16" library="Skyhawkson-Capacitors" library_urn="urn:adsk.eagle:library:23770361" deviceset="100NF_0805" device="" package3d_urn="urn:adsk.eagle:package:23770363/4"/>
+<part name="C17" library="Skyhawkson-Capacitors" library_urn="urn:adsk.eagle:library:23770361" deviceset="100NF_0805" device="" package3d_urn="urn:adsk.eagle:package:23770363/4"/>
+<part name="C18" library="Skyhawkson-Capacitors" library_urn="urn:adsk.eagle:library:23770361" deviceset="100NF_0805" device="" package3d_urn="urn:adsk.eagle:package:23770363/4"/>
+<part name="C19" library="Skyhawkson-Capacitors" library_urn="urn:adsk.eagle:library:23770361" deviceset="100NF_0805" device="" package3d_urn="urn:adsk.eagle:package:23770363/4"/>
 <part name="GND13" library="Skyhawkson-Power Symbols" library_urn="urn:adsk.eagle:library:26071075" deviceset="GND" device=""/>
-<part name="C20" library="Skyhawkson-Capacitors" library_urn="urn:adsk.eagle:library:23770361" deviceset="100NF_0805" device="" package3d_urn="urn:adsk.eagle:package:23770363/2"/>
+<part name="C20" library="Skyhawkson-Capacitors" library_urn="urn:adsk.eagle:library:23770361" deviceset="100NF_0805" device="" package3d_urn="urn:adsk.eagle:package:23770363/4"/>
 <part name="R13" library="Skyhawkson-Resistors" library_urn="urn:adsk.eagle:library:23770414" deviceset="0R_0603" device="" package3d_urn="urn:adsk.eagle:package:26071182/3"/>
 <part name="R14" library="Skyhawkson-Resistors" library_urn="urn:adsk.eagle:library:23770414" deviceset="37R4_0603" device="" package3d_urn="urn:adsk.eagle:package:26071182/3"/>
 <part name="R15" library="Skyhawkson-Resistors" library_urn="urn:adsk.eagle:library:23770414" deviceset="37R4_0603" device="" package3d_urn="urn:adsk.eagle:package:26071182/3"/>
@@ -2361,7 +2367,7 @@ DIN A4, landscape with location and doc. field</description>
 <part name="GND17" library="Skyhawkson-Power Symbols" library_urn="urn:adsk.eagle:library:26071075" deviceset="GND" device=""/>
 <part name="R19" library="Skyhawkson-Resistors" library_urn="urn:adsk.eagle:library:23770414" deviceset="1K_0603" device="" package3d_urn="urn:adsk.eagle:package:26071182/3"/>
 <part name="U$18" library="Skyhawkson-Power Symbols" library_urn="urn:adsk.eagle:library:26071075" deviceset="+3V3" device=""/>
-<part name="C21" library="Skyhawkson-Capacitors" library_urn="urn:adsk.eagle:library:23770361" deviceset="1UF_0805" device="" package3d_urn="urn:adsk.eagle:package:23770363/2"/>
+<part name="C21" library="Skyhawkson-Capacitors" library_urn="urn:adsk.eagle:library:23770361" deviceset="1UF_0805" device="" package3d_urn="urn:adsk.eagle:package:23770363/4"/>
 <part name="U$19" library="Skyhawkson-Power Symbols" library_urn="urn:adsk.eagle:library:26071075" deviceset="+3V3" device=""/>
 <part name="GND18" library="Skyhawkson-Power Symbols" library_urn="urn:adsk.eagle:library:26071075" deviceset="GND" device=""/>
 <part name="R20" library="Skyhawkson-Resistors" library_urn="urn:adsk.eagle:library:23770414" deviceset="2K2_0603" device="" package3d_urn="urn:adsk.eagle:package:26071182/3"/>
@@ -2370,10 +2376,10 @@ DIN A4, landscape with location and doc. field</description>
 <part name="U$21" library="Skyhawkson-Power Symbols" library_urn="urn:adsk.eagle:library:26071075" deviceset="+3V3" device=""/>
 <part name="U$22" library="Skyhawkson-Power Symbols" library_urn="urn:adsk.eagle:library:26071075" deviceset="+3V3" device=""/>
 <part name="GND19" library="Skyhawkson-Power Symbols" library_urn="urn:adsk.eagle:library:26071075" deviceset="GND" device=""/>
-<part name="C22" library="Skyhawkson-Capacitors" library_urn="urn:adsk.eagle:library:23770361" deviceset="1UF_0805" device="" package3d_urn="urn:adsk.eagle:package:23770363/2"/>
-<part name="C23" library="Skyhawkson-Capacitors" library_urn="urn:adsk.eagle:library:23770361" deviceset="1UF_0805" device="" package3d_urn="urn:adsk.eagle:package:23770363/2"/>
-<part name="C24" library="Skyhawkson-Capacitors" library_urn="urn:adsk.eagle:library:23770361" deviceset="1UF_0805" device="" package3d_urn="urn:adsk.eagle:package:23770363/2"/>
-<part name="C25" library="Skyhawkson-Capacitors" library_urn="urn:adsk.eagle:library:23770361" deviceset="1UF_0805" device="" package3d_urn="urn:adsk.eagle:package:23770363/2"/>
+<part name="C22" library="Skyhawkson-Capacitors" library_urn="urn:adsk.eagle:library:23770361" deviceset="1UF_0805" device="" package3d_urn="urn:adsk.eagle:package:23770363/4"/>
+<part name="C23" library="Skyhawkson-Capacitors" library_urn="urn:adsk.eagle:library:23770361" deviceset="1UF_0805" device="" package3d_urn="urn:adsk.eagle:package:23770363/4"/>
+<part name="C24" library="Skyhawkson-Capacitors" library_urn="urn:adsk.eagle:library:23770361" deviceset="1UF_0805" device="" package3d_urn="urn:adsk.eagle:package:23770363/4"/>
+<part name="C25" library="Skyhawkson-Capacitors" library_urn="urn:adsk.eagle:library:23770361" deviceset="1UF_0805" device="" package3d_urn="urn:adsk.eagle:package:23770363/4"/>
 <part name="U$23" library="Skyhawkson-Power Symbols" library_urn="urn:adsk.eagle:library:26071075" deviceset="+3V3" device=""/>
 <part name="GND20" library="Skyhawkson-Power Symbols" library_urn="urn:adsk.eagle:library:26071075" deviceset="GND" device=""/>
 <part name="U$24" library="Skyhawkson-Power Symbols" library_urn="urn:adsk.eagle:library:26071075" deviceset="+3V3" device=""/>
@@ -2386,25 +2392,25 @@ DIN A4, landscape with location and doc. field</description>
 <part name="U$27" library="Skyhawkson-Power Symbols" library_urn="urn:adsk.eagle:library:26071075" deviceset="+3V3" device=""/>
 <part name="R22" library="Skyhawkson-Resistors" library_urn="urn:adsk.eagle:library:23770414" deviceset="1K_0603" device="" package3d_urn="urn:adsk.eagle:package:26071182/3"/>
 <part name="GND24" library="Skyhawkson-Power Symbols" library_urn="urn:adsk.eagle:library:26071075" deviceset="GND" device=""/>
-<part name="C26" library="Skyhawkson-Capacitors" library_urn="urn:adsk.eagle:library:23770361" deviceset="1UF_0805" device="" package3d_urn="urn:adsk.eagle:package:23770363/2"/>
+<part name="C26" library="Skyhawkson-Capacitors" library_urn="urn:adsk.eagle:library:23770361" deviceset="1UF_0805" device="" package3d_urn="urn:adsk.eagle:package:23770363/4"/>
 <part name="FRAME1" library="Skyhawkson-Miscellaneous" library_urn="urn:adsk.eagle:library:23798804" deviceset="A4-FRAME" device=""/>
-<part name="U6" library="Skyhawkson-Power" library_urn="urn:adsk.eagle:library:26078409" deviceset="MIC_MIC5504-1.8" device="" package3d_urn="urn:adsk.eagle:package:26078442/2"/>
-<part name="C27" library="Skyhawkson-Capacitors" library_urn="urn:adsk.eagle:library:23770361" deviceset="1UF_0805" device="" package3d_urn="urn:adsk.eagle:package:23770363/2"/>
-<part name="C28" library="Skyhawkson-Capacitors" library_urn="urn:adsk.eagle:library:23770361" deviceset="1UF_0805" device="" package3d_urn="urn:adsk.eagle:package:23770363/2"/>
+<part name="U6" library="Skyhawkson-Power" library_urn="urn:adsk.eagle:library:26078409" deviceset="MIC_MIC5504-1.8" device="" package3d_urn="urn:adsk.eagle:package:26078442/4"/>
+<part name="C27" library="Skyhawkson-Capacitors" library_urn="urn:adsk.eagle:library:23770361" deviceset="1UF_0805" device="" package3d_urn="urn:adsk.eagle:package:23770363/4"/>
+<part name="C28" library="Skyhawkson-Capacitors" library_urn="urn:adsk.eagle:library:23770361" deviceset="1UF_0805" device="" package3d_urn="urn:adsk.eagle:package:23770363/4"/>
 <part name="GND25" library="Skyhawkson-Power Symbols" library_urn="urn:adsk.eagle:library:26071075" deviceset="GND" device=""/>
 <part name="U$28" library="Skyhawkson-Power Symbols" library_urn="urn:adsk.eagle:library:26071075" deviceset="+1V8" device=""/>
 <part name="U$29" library="Skyhawkson-Power Symbols" library_urn="urn:adsk.eagle:library:26071075" deviceset="+3V3" device=""/>
-<part name="U7" library="Skyhawkson-Power" library_urn="urn:adsk.eagle:library:26078409" deviceset="TOR_XC6220B331" device="" package3d_urn="urn:adsk.eagle:package:26096250/3"/>
-<part name="C29" library="Skyhawkson-Capacitors" library_urn="urn:adsk.eagle:library:23770361" deviceset="1UF_0805" device="" package3d_urn="urn:adsk.eagle:package:23770363/2"/>
-<part name="C30" library="Skyhawkson-Capacitors" library_urn="urn:adsk.eagle:library:23770361" deviceset="1UF_0805" device="" package3d_urn="urn:adsk.eagle:package:23770363/2"/>
+<part name="U7" library="Skyhawkson-Power" library_urn="urn:adsk.eagle:library:26078409" deviceset="TOR_XC6220B331" device="" package3d_urn="urn:adsk.eagle:package:26096250/4"/>
+<part name="C29" library="Skyhawkson-Capacitors" library_urn="urn:adsk.eagle:library:23770361" deviceset="1UF_0805" device="" package3d_urn="urn:adsk.eagle:package:23770363/4"/>
+<part name="C30" library="Skyhawkson-Capacitors" library_urn="urn:adsk.eagle:library:23770361" deviceset="1UF_0805" device="" package3d_urn="urn:adsk.eagle:package:23770363/4"/>
 <part name="GND26" library="Skyhawkson-Power Symbols" library_urn="urn:adsk.eagle:library:26071075" deviceset="GND" device=""/>
 <part name="U8" library="Skyhawkson-Power" library_urn="urn:adsk.eagle:library:26078409" deviceset="ROHM_BD50HC5WEFJ" device="" package3d_urn="urn:adsk.eagle:package:26102364/3"/>
 <part name="J2" library="Skyhawkson-Connectors" library_urn="urn:adsk.eagle:library:23896875" deviceset="PHOENIX_SPTAF1/2-3,5" device="" package3d_urn="urn:adsk.eagle:package:26102990/3"/>
 <part name="GND27" library="Skyhawkson-Power Symbols" library_urn="urn:adsk.eagle:library:26071075" deviceset="GND" device=""/>
-<part name="C31" library="Skyhawkson-Capacitors" library_urn="urn:adsk.eagle:library:23770361" deviceset="1UF_0805" device="" package3d_urn="urn:adsk.eagle:package:23770363/2"/>
+<part name="C31" library="Skyhawkson-Capacitors" library_urn="urn:adsk.eagle:library:23770361" deviceset="1UF_0805" device="" package3d_urn="urn:adsk.eagle:package:23770363/4"/>
 <part name="U$31" library="Skyhawkson-Power Symbols" library_urn="urn:adsk.eagle:library:26071075" deviceset="+5V" device=""/>
 <part name="GND28" library="Skyhawkson-Power Symbols" library_urn="urn:adsk.eagle:library:26071075" deviceset="GND" device=""/>
-<part name="C32" library="Skyhawkson-Capacitors" library_urn="urn:adsk.eagle:library:23770361" deviceset="1UF_0805" device="" package3d_urn="urn:adsk.eagle:package:23770363/2"/>
+<part name="C32" library="Skyhawkson-Capacitors" library_urn="urn:adsk.eagle:library:23770361" deviceset="1UF_0805" device="" package3d_urn="urn:adsk.eagle:package:23770363/4"/>
 <part name="U$30" library="Skyhawkson-Connectors" library_urn="urn:adsk.eagle:library:23896875" deviceset="SWD_HEADER" device="" package3d_urn="urn:adsk.eagle:package:26105697/4"/>
 <part name="U$32" library="Skyhawkson-Power Symbols" library_urn="urn:adsk.eagle:library:26071075" deviceset="+3V3" device=""/>
 <part name="GND29" library="Skyhawkson-Power Symbols" library_urn="urn:adsk.eagle:library:26071075" deviceset="GND" device=""/>
